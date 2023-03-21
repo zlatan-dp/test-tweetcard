@@ -24,8 +24,8 @@ export const TweetCard = () => {
   };
   return (
     <TweetCardWrap>
-      <Logo src={logo} />
-      <Bg src={bgImg} />
+      <Logo src={logo} alt="goit logo" width="76" />
+      <Bg src={bgImg} alt="bg image" width="308" />
       <Avatar />
       <Text mb={'16px'}>777 tweets</Text>
       <Text mb={'26px'}>{followers.toLocaleString('en-US')} Followers</Text>

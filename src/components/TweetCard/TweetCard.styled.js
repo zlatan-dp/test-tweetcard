@@ -45,7 +45,7 @@ export const Button = styled.button`
   padding-bottom: 14px;
   margin-left: auto;
   margin-right: auto;
-
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.22;
@@ -55,6 +55,11 @@ export const Button = styled.button`
   border: none;
   border-radius: 10.3108px;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+  &:hover {
+    background-color: ${p => (p.bg ? '#62ffc6' : '#c296f0')};
+  }
 `;
 
 Text.propTypes = {
